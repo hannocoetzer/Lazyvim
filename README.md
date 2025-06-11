@@ -1,3 +1,3 @@
-Lazyvim
-All configurations for Lazyvim | dotnet debugging
+Lazyvim Configuration backup
+All settings for Lazyvim | dotnet debugging
 
