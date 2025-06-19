@@ -28,8 +28,8 @@ pipx install cpplint
 to get your local changes onto GitHub, with minimal fuss, go with:
 ✅ Option 2: Rebase (cleaner history)
 
-git pull --rebase
-git push
+#git pull --rebase
+#git push
 
 This:
 
@@ -41,13 +41,13 @@ This:
 
 If for some reason you get conflicts, Git will pause during rebase and ask you to resolve them. After resolving:
 
-git rebase --continue
-git push
+#git rebase --continue
+#git push
 
 Alternatively, if you just want to override remote (and don’t care about the 6 remote commits):
 
     ⚠️ This will wipe the 6 commits on GitHub and replace them with your local state:
 
-git push --force
+#git push --force
 
 But I recommend --rebase unless you're intentionally overwriting history.
