@@ -15,7 +15,7 @@ sudo apt-get install unzip
 sudo apt-get install pipx
 pipx ensurepath
 ```
-C++ LSP ( use :Mason to add cpptools)
+C++ LSP ( use :Mason to add clangd | clang-format | cpptools)
 ```
 pipx install cpplint
 ```
