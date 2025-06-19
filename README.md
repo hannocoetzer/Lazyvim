@@ -12,4 +12,10 @@ Requirements
 ```
 sudo apt-get install python3
 sudo apt-get install unzip
+sudo apt-get install pipx
+pipx ensurepath
+```
+C++ LSP ( use :Mason to add cpptools)
+```
+pipx install cpplint
 ```
