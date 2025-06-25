@@ -51,3 +51,9 @@ Alternatively, if you just want to override remote (and don’t care about the 6
 #git push --force
 
 But I recommend --rebase unless you're intentionally overwriting history.
+
+✅ Options to Fix
+🟡 Option 1: Discard local conflict and keep the version from HEAD (your branch)
+
+git checkout --ours -- Controllers/User.cs
+
