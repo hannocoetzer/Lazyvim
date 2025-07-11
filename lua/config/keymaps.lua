@@ -33,3 +33,4 @@ end
 
 vim.keymap.set("n", "<leader>sg", live_grep_custom, { desc = "Live Grep (skip .git)" })
 vim.keymap.set("n", "<leader>/", live_grep_custom, { desc = "Live Grep (quick)" })
+vim.keymap.set("n", "<leader>o", ":Neotree reveal<CR>", { desc = "Reveal file in Neo-tree" })
